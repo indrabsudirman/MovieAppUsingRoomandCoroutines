@@ -30,6 +30,6 @@ class DirectorsListFragment : Fragment() {
     }
 
     private fun initView(view: View) {
-
+        directorsListAdapter = DirectorsListAdapter(requireContext())
     }
 }
