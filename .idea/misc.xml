@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Indra Sudirman/AndroidStudioProjects/MovieAppUsingRoomandCoroutines/app/src/main/res/layout/dialog_director.xml" value="0.21331521739130435" />
         <entry key="..\:/Users/Jabrikos/AndroidStudioProjects/MovieAppUsingRoomandCoroutines/app/src/main/res/layout/fragment_directors.xml" value="0.2604166666666667" />
         <entry key="..\:/Users/Jabrikos/AndroidStudioProjects/MovieAppUsingRoomandCoroutines/app/src/main/res/layout/item_list_director.xml" value="0.2604166666666667" />
       </map>

@@ -20,7 +20,7 @@ class DirectorSaveDialogFragment : DialogFragment() {
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
         val alertDialogBuilder = AlertDialog.Builder(requireActivity())
         val view = requireActivity().layoutInflater.inflate(R.layout.dialog_director, null)
-        val directorEditText = view.findViewById<EditText>(R.id.etDirectorFullName)
+        val directorEditText = view.findViewById<EditText>(R.id.et_director_full_name)
     }
 
     companion object {
