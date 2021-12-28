@@ -19,7 +19,7 @@ class DirectorSaveDialogFragment : DialogFragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        directorFullNameExtra = arguments!!.getString(EXTRA_DIRECTOR_FULL_NAME)
+        directorFullNameExtra = requireArguments().getString(EXTRA_DIRECTOR_FULL_NAME)
     }
 
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
