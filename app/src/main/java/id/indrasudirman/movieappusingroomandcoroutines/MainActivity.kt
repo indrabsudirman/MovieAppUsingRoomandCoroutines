@@ -9,3 +9,5 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 }
+
+//Jangan lupa check Manifest, ada file Provider
