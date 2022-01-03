@@ -21,6 +21,7 @@
             app:popupTheme="@style/AppTheme.PopupOverlay"/>
     </com.google.android.material.appbar.AppBarLayout>
 
-    <include layout="@layout/content_main"/>
+    <include layout="@layout/content_main"
+        android:id="@+id/content_main"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
