@@ -5,7 +5,7 @@ import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import id.indrasudirman.movieappusingroomandcoroutines.database.*
 
-class MoviesViewModel(application: Application) : AndroidViewModel(application) {
+class  MoviesViewModel(application: Application) : AndroidViewModel(application) {
 
     private val movieDao: MovieDao = MovieDatabase.getDatabase(application).movieDao()
     private val directorDao: DirectorDao = MovieDatabase.getDatabase(application).directorDao()
